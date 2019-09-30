@@ -15,7 +15,7 @@ const xlsToAmexCSV = (INPUT_FILE, OUTPUT_FILE) => {
         if (output.length) {
             output.forEach((row, index) => {
                 if (index !== 0) {
-                    row[0] = moment(row[0], "DD MMM YYYY").toISOString();
+                    row[0] = moment(row[0], "DD MMM YYYY").format("YYYY-MM-DD");
                 }
                 modifiedLines.push(row);
             });

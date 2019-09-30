@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "run": "node index.js",
-        "build": "pkg -t node8-macos-x64 src/index.js -o lib/excel-to-amex-csv"
+        "build": "pkg -t node8-macos-x64 src/index.js -o lib/xls-to-amex-csv"
     },
     "keywords": [],
     "author": "",
