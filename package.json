@@ -14,7 +14,7 @@
         "csv-parse": "^4.4.7",
         "csv-stringify": "^5.3.3",
         "fs": "0.0.1-security",
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "pkg": "^4.4.0",
         "xlsx": "^0.15.1",
         "yargs": "^14.0.0"
